@@ -17,6 +17,8 @@ header {background-color: black;
     justify-content: space-around;
     position: relative;}
 
+form {display: flex;}
+
 h1 {color: gold;
     font-family: lavishly-yours;
     font-weight: bolder;
@@ -36,9 +38,13 @@ button {border-radius: 5px;}
     width: 50%;
 }
 nav {display: flex;
-align-items: center;
-justify-content: space-around;
-padding: 10px;}
+align-items: flex-end;
+justify-content: space-evenly;
+padding-left: 10%;
+padding-right: 10%;
+}
+
+section 
 
 .news{display: flex;
     align-items: center;
