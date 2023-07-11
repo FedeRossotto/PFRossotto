@@ -34,15 +34,25 @@ h1 {color: gold;
 
 button {border-radius: 5px;}
 
+nav .navbar {display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    background-color: blue; }
+
+.principal {background-color: rgb(238, 156, 234);}
+
+.carousel-inner > .carousel-item> img {
+    object-fit: scale-down;
+    height: 75vh;
+    width: 100%;
+  }
+
+
 .novedades {
     width: 50%;
 }
-nav {display: flex;
-align-items: flex-end;
-justify-content: space-evenly;
-padding-left: 10%;
-padding-right: 10%;
-}
+
+
 
 section 
 
