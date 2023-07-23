@@ -1,61 +1,66 @@
 * {
-    text-decoration:none;
-    color: black;
-    box-sizing: border-box;
-    margin: 0;
-    font-family: sans-serif;
+  text-decoration: none;
+  color: black;
+  box-sizing: border-box;
+  margin: 0;
+  font-family: sans-serif;
 }
 
 @font-face {
-    font-family: lavishly-yours;
-    src: url(../fonts/LavishlyYours-Regular.ttf);
+  font-family: lavishly-yours;
+  src: url(../fonts/LavishlyYours-Regular.ttf);
+}
+header {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+}
+header h1 {
+  color: gold;
+  font-family: lavishly-yours;
+  font-weight: bolder;
+  font-size: 50px;
+}
+header form {
+  display: flex;
+}
+header form .search {
+  text-align: left;
+  width: 100%;
+  height: 30px;
+  border-radius: 8px;
+}
+header form button {
+  border-radius: 5px;
 }
 
-header {background-color: black;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    position: relative;}
+nav .navbar {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  background-color: blue;
+}
 
-form {display: flex;}
+.principal {
+  background-color: rgb(238, 156, 234);
+}
 
-h1 {color: gold;
-    font-family: lavishly-yours;
-    font-weight: bolder;
-    font-size: 50px;
-    left
-    }
-
-.search {text-align: left;
-        width: 100%;
-        height: 30px;
-        border-radius: 8px;
-    }
-
-button {border-radius: 5px;}
-
-nav .navbar {display: flex;
-    align-items: flex-end;
-    justify-content: center;
-    background-color: blue; }
-
-.principal {background-color: rgb(238, 156, 234);}
-
-.carousel-inner > .carousel-item> img {
-    object-fit: scale-down;
-    height: 75vh;
-    width: 100%;
-  }
-
+.carousel-inner > .carousel-item > img {
+  object-fit: scale-down;
+  height: 75vh;
+  width: 100%;
+}
 
 .novedades {
-    width: 50%;
+  width: 50%;
 }
 
+section .news {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
 
-
-section 
-
-.news{display: flex;
-    align-items: center;
-    justify-content: space-around;}
+/*# sourceMappingURL=style.css.map */
