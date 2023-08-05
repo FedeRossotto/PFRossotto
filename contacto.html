@@ -1,28 +1,50 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Stefanía Clothing</title>
+
+    <link rel="stylesheet" href="./css/bootstrap.css">
     <link rel="stylesheet" href="./css/style.css">
+
 </head>
 <body>
     <header>
         
-        <h1><div> Stefanía</div> Clothing</h1>
+        <h1>Stefanía 
+            <br>Clothing</h1>
 
         <form action="#">
-            <input type="text" placeholder="Qué estás buscando?">
-
+            <input class="search" type="text" placeholder="Qué estás buscando?">
+            <button>Buscar</button>
         </form>
 
-        <nav>
-            <a href="index.html">Inicio</a>
-            <a href="nosotros.html">Nosotros</a>
-            <a href="promociones.html">Promociones</a>
-            <a href="productos.html">Productos</a>
-            
-        </nav>
+
     </header>
+
+    <hr>
+
+    <ul class="nav justify-content-center">
+      <li class="nav-item">
+        <a class="nav-link" href="./index.html">Inicio</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="./productos.html">Productos</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="./nosotros.html">Nosotros</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="./promociones.html">Promociones</a>
+      </li>
+    </ul>
+    <hr>
+    <form class="formulario" action="#">
+        <div><input class="e-mail" type="email" placeholder="e-mail"></div>
+        <div><input class="tel" type="tel" placeholder="Teléfono"></div>
+        <textarea name="" id="" cols="30" rows="10" placeholder="En qué puedo ayudarte?"></textarea>
+        <div><button>Enviar</button></div>
+    </form>
 </body>
 </html>
