@@ -40,7 +40,6 @@ nav .navbar {display: flex;
   }
 
 .ultimo{
-    background-color: aqua;
     display: flexbox;
     justify-content: space-between;
     .fotos{
@@ -48,12 +47,21 @@ nav .navbar {display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
         gap: 50px;
-        background-color: blue;
         padding-left: 30px;
     }
 
  }
+.fotos-promociones {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 50px;
+    padding-left: 30px;
+}
 
+.fotos-productos {
+    @extend .fotos-promociones
+}
 .novedades {
     width: 50%;
 }
@@ -62,4 +70,7 @@ section {
     .news{display: flex;
     align-items: center;
     justify-content: space-around;}
+}
+footer {
+    background-color: rgb(238, 156, 234);
 }
