@@ -39,6 +39,21 @@ nav .navbar {display: flex;
     width: 100%;
   }
 
+.ultimo{
+    background-color: aqua;
+    display: flexbox;
+    justify-content: space-between;
+    .fotos{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap: 50px;
+        background-color: blue;
+        padding-left: 30px;
+    }
+
+ }
+
 .novedades {
     width: 50%;
 }
